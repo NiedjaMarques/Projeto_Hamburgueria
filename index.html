@@ -6,6 +6,12 @@
     <title>Hamburgueria - A melhor da mundo</title>
     <link rel="stylesheet" href="./styles/output.css" />
 
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -129,8 +135,9 @@
             <p class="font-bold">Hamburguer Salad</p>
 
             <p class="text-sm">
-              Dois hambúrgueres suculentos, queijo derretido, molho especial,
-              servidos em um pão macio.
+              O nosso Hambúrguer Salad combina a crocância dos vegetais frescos
+              com a suculência da carne grelhada, criando uma experiência única
+              e saudável.
             </p>
 
             <div class="flex items-center gap-2 justify-between mt-3">
@@ -160,8 +167,8 @@
             <p class="font-bold">Hamburguer da Casa</p>
 
             <p class="text-sm">
-              Dois hambúrgueres suculentos, queijo derretido, molho especial,
-              servidos em um pão macio.
+              Hambúrguer da Casa, preparado com os melhores ingredientes e
+              temperado com o amor e a tradição da nossa cozinha.
             </p>
 
             <div class="flex items-center gap-2 justify-between mt-3">
@@ -248,6 +255,7 @@
     <!-- Janela modal -->
 
     <div
+      id="cart-modal"
       class="bg-black/60 w-full h-full fixed top-0 left-0 z-50 items-center justify-center hidden"
     >
       <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
@@ -298,5 +306,12 @@
     </footer>
 
     <!-- Button Cart Footer -->
+
+    <!-- JAVASCRIPT -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="script.js"></script>
   </body>
 </html>
